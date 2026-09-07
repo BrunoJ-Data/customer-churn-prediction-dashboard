@@ -10,7 +10,7 @@ Read me and details in progress...
 
 ---
 
-Un tableau de bord interactif afin d'anticiper les départs clients et les risques budgétaires associés..
+💬 Un tableau de bord interactif afin d'anticiper les départs clients et les risques budgétaires associés..
 
 Read mis à jour prochainement....
 
