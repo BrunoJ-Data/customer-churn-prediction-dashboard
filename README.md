@@ -4,7 +4,7 @@ Markdown
 
 An interactive dashboard designed for SaaS Customer Success and Sales teams to identify churn risks and take proactive retention actions.
 
-🔗 **Live App:** [customer-churn-prediction-dashboard-interactive.streamlit.app](https://customer-churn-prediction-dashboard-interactive.streamlit.app)
+👉 **Live App:** [customer-churn-prediction-dashboard-interactive.streamlit.app](https://customer-churn-prediction-dashboard-interactive.streamlit.app)
 
 Read me and details in progress...
 
