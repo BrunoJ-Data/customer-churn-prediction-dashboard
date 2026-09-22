@@ -139,7 +139,7 @@ df_ml = pd.get_dummies(df_ml, columns= ['billing_frequency','industry','country'
 
 
 # recréer la séparation
-X= df_ml.drop(columns =['churn_flag','account_id'])
+X= df_ml.drop(columns =['churn_flag','client_id'])
 
 #  le modele s'attend à avoir tout les colonnes apprisent lors du fit, sinon il plante
 # pour  palier à ça, lors de la selection des colonnes,  on utilise le .reindex ,il permet de créer les colonnes manquantes rempli avec les valeurs 0
@@ -340,7 +340,7 @@ df_filtre['Risk_Factors'] = df_filtre.apply(review_warning, axis= 1) #axis 1 app
 
 # Colore la probabilité de churn du vert (faible risque) au rouge (fort risque)
 st.dataframe(
-    df_filtre[['account_id','current_mrr','satisfaction_avg','total_errors','country','churn_proba','departure_risk','Risk_Factors']]
+    df_filtre[['client_id','current_mrr','satisfaction_avg','total_errors','country','churn_proba','departure_risk','Risk_Factors']]
         .style #e veux transformer ce DataFrame en Styler, pour pouvoir le mettre en forme visuellement.
         .format({'churn_proba': '{:.2f}', 'satisfaction_avg': '{:.2f}','tickets_nb':'{:.2f}','current_mrr':'{:,.0f} $'})# sert à transformer des données brutes en un texte propre ,ajouter des symboles ($, %), de forcer un nombre de décimales, ou d'ajouter des séparateurs de milliers
         .background_gradient(subset=['churn_proba'], cmap='Reds'),
@@ -387,7 +387,7 @@ fig_col3.plotly_chart(fig_c, use_container_width=True) #Étire le graphique pour
 #Graphique c:
 
 
-#client_risque = pd.DataFrame({'client':'account_id',
+#client_risque = pd.DataFrame({'client':'client_id',
 #'probabilité':'churn_proba'}, index=[0]) # définis l’index de la ligne que tu crées
 
 #st.write(pd.DataFrame(client_risque))
