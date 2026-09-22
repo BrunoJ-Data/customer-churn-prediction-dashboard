@@ -12,10 +12,10 @@ An interactive dashboard designed for SaaS Customer Success and Sales teams to i
 
 *Documentation complète bientôt disponible...*
 
-## ⚙️ Data Preparation 
-- **Data Pipeline:** Nettoyage, structuration et agrégation de jeux de données (feature engineering, gestion des valeurs manquantes, encodage).
-- **Data Merging:** Consolidation et jointures des données clients sous Pandas.
+## ⚙️ Preparation / Cleaning
+-  Nettoyage, structuration et agrégation de jeux de données (feature engineering, gestion des valeurs manquantes, encodage).
+- Consolidation et jointures des données clients sous Pandas.
 
 ## 🛠️ Stack
-- **Data Wrangling & ML:** Python, Pandas, NumPy, Scikit-Learn
+- Python, Pandas, NumPy, Scikit-Learn
 - **Interface:** Streamlit
