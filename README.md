@@ -12,8 +12,11 @@ An interactive dashboard designed for SaaS Customer Success and Sales teams to i
 
 *Documentation complète bientôt disponible...*
 
+ 
+
 ## ⚙️ Preparation / Cleaning
--  Nettoyage, structuration et agrégation de jeux de données (feature engineering, gestion des valeurs manquantes, encodage) avec Pandas .
+- Données issus de " Ravenstack SaaS Subscription & Churn Analytics "
+- Nettoyage, structuration et agrégation de jeux de données (feature engineering, gestion des valeurs manquantes, encodage) avec Pandas .
 - Consolidation et jointures des données clients sous Pandas.
 
 ## 🛠️ Stack
