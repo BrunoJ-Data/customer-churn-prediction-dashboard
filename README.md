@@ -8,7 +8,7 @@ An interactive dashboard designed for SaaS Customer Success and Sales teams to i
 
 ---
 
- 📁 Un tableau de bord interactif afin d'anticiper les départs clients et les risques budgétaires associés.
+ 🔄 Un tableau de bord interactif afin d'anticiper les départs clients et les risques budgétaires associés.
 
 *Documentation complète bientôt disponible...*
 
